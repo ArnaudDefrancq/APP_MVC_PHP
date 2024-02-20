@@ -3,7 +3,7 @@
     "description": "Ceci est un projet exercice en php avec le model MVC",
     "autoload": {
         "psr-4": {
-            "Projet\\Mvc\\": "src/"
+            "projet\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,7 @@
             "email": "arnaud.defrancq@laposte.net"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
