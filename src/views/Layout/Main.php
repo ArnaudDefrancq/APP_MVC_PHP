@@ -11,11 +11,6 @@
     <link rel="stylesheet" href="/css/header.css" type="text/css">
     <link rel="stylesheet" href="/css/footer.css" type="text/css">
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-    <link rel="icon" type="image/png" href="/img/regainfavicon.svg">
-    <script src="/js/HeaderMenu.js" defer></script>
-
     <?php
     // ajout du CSS pour la vue à rendre
     if (isset($view_name)) { ?>

@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3%;
+  border-bottom: 1px solid black;
+}
+
+.logo-header {
+  width: 8%;
+}
+
+.nav-bar {
+  width: 23%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-nav-bar {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.item-nav-bar:hover {
+  color: var(--color3);
+}
