@@ -1,0 +1,16 @@
+{
+    "name": "projet/mvc",
+    "description": "Ceci est un projet exercice en php avec le model MVC",
+    "autoload": {
+        "psr-4": {
+            "Projet\\Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ArnaudDefrancq",
+            "email": "arnaud.defrancq@laposte.net"
+        }
+    ],
+    "require": {}
+}
