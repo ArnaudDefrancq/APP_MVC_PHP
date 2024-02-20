@@ -12,4 +12,6 @@ $dotenv->load();
 
 $uri = $_SERVER['REQUEST_URI'];
 
-var_dump($uri);
+require __DIR__ . "/../src/Routes.php";
+
+$route->dispatch($uri);
